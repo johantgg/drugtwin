@@ -1,9 +1,0 @@
-1.4	Hipotesis Penelitian
-
-Hipotesis penelitian merupakan jawaban sementara terhadap rumusan masalah yang akan dibuktikan melalui analisis dan pemodelan numerik. Berdasarkan rumusan masalah dan tujuan penelitian, hipotesis dalam penelitian ini adalah:
-
-1.	Tanah dasar pada area reklamasi Pelabuhan Patimban Paket 6 tanpa perbaikan akan mengalami penurunan konsolidasi yang signifikan akibat beban surcharge dan berat lapisan reklamasi, dengan derajat konsolidasi mencapai kondisi stabil dalam jangka panjang setelah beberapa tahun.
-
-2.	Perbaikan tanah menggunakan sistem CDM–CPM dapat mengurangi penurunan konsolidasi tanah dasar secara signifikan melalui peningkatan parameter kuat geser dan pengurangan permeabilitas, sehingga proses konsolidasi menjadi lebih cepat dibandingkan kondisi tanpa perbaikan.
-
-3.	Sistem CDM–CPM memberikan efektivitas tinggi dalam mengendalikan penurunan konsolidasi jangka panjang, dengan perkiraan reduksi settlement sebesar 40–60% dari total penurunan pada kondisi tanpa perbaikan.
