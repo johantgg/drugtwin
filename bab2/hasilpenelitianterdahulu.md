@@ -30,63 +30,6 @@ Penelitian-penelitian sebelumnya menunjukkan bahwa metode Prefabricated Vertical
 
 Selain PVD, metode Deep Soil Mixing (DSM) juga mulai mendapat perhatian sebagai alternatif perbaikan tanah lunak, meskipun jumlah penelitiannya masih terbatas. Sadil et al. (2021) meneliti penggunaan Deep Soil Mixing pola panels dengan kapur 8% yang mampu meningkatkan daya dukung tanah lempung lunak dari 10,368 kg/cm² menjadi 14,69 kg/cm². Namun, belum ada penelitian yang mengkaji kombinasi metode Deep Soil Mixing dalam bentuk Cement Deep Mixing (CDM) dengan metode lain seperti material timbunan ringan Cement Pipe Mixing (CPM).
 
-**2. Perangkat Lunak dan Metode Analisis yang Digunakan**
-
-Hampir seluruh penelitian konsolidasi tanah lunak berbasis numerik menggunakan perangkat lunak Plaxis sebagai alat analisis utama. Plaxis 2D digunakan pada delapan dari sepuluh penelitian (80%), menunjukkan dominasi metode elemen hingga dua dimensi dalam analisis konsolidasi (Kristiadi et al., 2022; Wulandari et al., 2021; Napitupulu et al., 2021; Wiranata & Sinarta, 2022; Hayati & Harahap, 2025). Beberapa penelitian juga membandingkan hasil Plaxis 2D dengan Plaxis 3D untuk mengevaluasi akurasi prediksi penurunan (Wulandari et al., 2021; Napitupulu et al., 2021).
-
-Hasil perbandingan menunjukkan bahwa Plaxis 3D cenderung memberikan hasil yang lebih mendekati data settlement plate lapangan dibandingkan Plaxis 2D. Wulandari et al. (2021) melaporkan bahwa Plaxis 3D menghasilkan penurunan 6,627-6,983 m yang lebih dekat dengan data lapangan (7,850 m) dibandingkan Plaxis 2D yang memberikan hasil 7,421-7,491 m. Meskipun demikian, Plaxis 2D tetap menjadi pilihan utama karena efisiensi waktu komputasi dan kemudahan pemodelan, dengan tingkat akurasi yang masih dapat diterima (selisih 1,008% menurut Napitupulu et al., 2021).
-
-Selain Plaxis, penelitian Ardiansyah et al. (2025) menggunakan perangkat lunak SIGMA/W untuk analisis tegangan efektif dan penurunan tanah, menunjukkan adanya alternatif perangkat lunak untuk analisis konsolidasi, meskipun penggunaannya masih sangat terbatas.
-
-**3. Efektivitas Metode Perbaikan Tanah dalam Mempercepat Konsolidasi**
-
-Semua penelitian menunjukkan bahwa penggunaan metode perbaikan tanah mampu mempercepat waktu konsolidasi secara dramatis dibandingkan dengan kondisi tanah tanpa perbaikan. Percepatan waktu konsolidasi bervariasi tergantung pada metode yang digunakan:
-
-- Kombinasi preloading dan PVD dapat mempercepat konsolidasi dari 96,743 tahun menjadi 24 minggu (Hamzah, 2023), atau dari 10,801 tahun menjadi 6 bulan (Ardiansyah et al., 2025).
-- Konfigurasi PVD mempengaruhi efektivitas penurunan, di mana konfigurasi segitiga menghasilkan penurunan lebih besar (0,440 m) dibandingkan konfigurasi persegi (0,427 m) pada jarak yang sama (Fitriansyah et al., 2024).
-- Metode Deep Soil Mixing dengan kapur 8% mampu meningkatkan daya dukung tanah hingga 41,7% (dari 10,368 kg/cm² menjadi 14,69 kg/cm²) dengan efektivitas tertinggi pada jarak 1D dan diameter 3,75 cm (Sadil et al., 2021).
-
-**4. Faktor-Faktor yang Mempengaruhi Hasil Analisis Konsolidasi**
-
-Beberapa faktor penting yang mempengaruhi hasil analisis konsolidasi telah diidentifikasi dari penelitian-penelitian terdahulu:
-
-a) **Tingkat Kehalusan Mesh (Mesh Refinement)**: Wulandari et al. (2021) menunjukkan bahwa variasi tingkat kehalusan mesh dari very coarse hingga very fine mempengaruhi hasil prediksi penurunan. Pada Plaxis 2D, perbedaan hasil berkisar antara 7,421-7,491 m (selisih 0,94%), sedangkan pada Plaxis 3D berkisar 6,627-6,983 m (selisih 5,37%), menunjukkan bahwa Plaxis 3D lebih sensitif terhadap perubahan kehalusan mesh.
-
-b) **Kondisi Muka Air Tanah**: Kristiadi et al. (2022) menganalisis dua kondisi muka air tanah yang berbeda (kedalaman 2 m dan 1,5 m), menunjukkan bahwa kondisi hidrogeologi mempengaruhi proses konsolidasi dan daya dukung pondasi.
-
-c) **Konfigurasi dan Jarak PVD**: Fitriansyah et al. (2024) membuktikan bahwa konfigurasi segitiga lebih efektif dibandingkan konfigurasi persegi dalam menghasilkan penurunan tanah, dengan jarak PVD yang lebih rapat (0,5 m) memberikan hasil yang lebih baik.
-
-d) **Diameter dan Jarak Kolom Stabilisasi**: Sadil et al. (2021) menunjukkan bahwa peningkatan daya dukung tanah paling besar terjadi pada jarak 1D (satu kali diameter kolom) dengan diameter 3,75 cm.
-
-**5. Validasi Model Numerik dengan Data Lapangan**
-
-Beberapa penelitian melakukan validasi hasil analisis numerik dengan data monitoring lapangan untuk memastikan keakuratan model. Napitupulu et al. (2021) melaporkan bahwa hasil Plaxis 2D dan Plaxis 3D memiliki selisih yang sangat kecil dengan data settlement plate lapangan, yaitu masing-masing 1,008% dan 1,071%. Validasi ini menunjukkan bahwa metode elemen hingga menggunakan Plaxis dapat memberikan prediksi yang akurat untuk perilaku konsolidasi tanah lunak di lapangan.
-
-Wulandari et al. (2021) juga melakukan perbandingan antara hasil Plaxis 2D, Plaxis 3D, dan data settlement plate lapangan pada proyek reklamasi Belawan Phase I, yang menunjukkan bahwa Plaxis 3D memberikan hasil yang paling mendekati kondisi lapangan dengan akurasi tertinggi.
-
-**6. Aplikasi Metode Konsolidasi pada Berbagai Jenis Proyek**
-
-Penelitian-penelitian terdahulu mencakup berbagai jenis proyek infrastruktur, antara lain:
-
-- Proyek jalan tol (Hamzah, 2023)
-- Proyek reklamasi pelabuhan (Wulandari et al., 2021; Napitupulu et al., 2021)
-- Proyek tanggul pengaman (Ardiansyah et al., 2025)
-- Proyek infrastruktur umum pada tanah lempung lunak (Wiranata & Sinarta, 2022; Fitriansyah et al., 2024; Sadil et al., 2021)
-
-Keberagaman aplikasi ini menunjukkan bahwa masalah konsolidasi tanah lunak merupakan tantangan umum dalam berbagai proyek konstruksi di Indonesia, terutama di daerah pesisir dan dataran rendah yang umumnya memiliki lapisan tanah lunak dengan ketebalan signifikan.
-
-**7. Peningkatan Daya Dukung Tanah Setelah Konsolidasi**
-
-Beberapa penelitian menunjukkan bahwa proses konsolidasi tidak hanya mengurangi settlement tetapi juga meningkatkan daya dukung tanah. Kristiadi et al. (2022) melaporkan bahwa daya dukung pondasi dangkal meningkat dari 76,55 kPa sebelum konsolidasi menjadi 100,05 kPa setelah konsolidasi 90% (U90), menunjukkan peningkatan sekitar 30,7%. Wiranata & Sinarta (2022) juga menunjukkan bahwa metode PVD menghasilkan nilai angka aman (safety factor) yang memadai, yaitu 1,409 pada akhir masa konstruksi dan 1,341 pada masa operasional dengan beban tambahan 15 kPa.
-
-**8. Keterbatasan Penelitian Terdahulu**
-
-Meskipun penelitian-penelitian terdahulu telah memberikan kontribusi penting dalam analisis konsolidasi tanah lunak, terdapat beberapa keterbatasan yang perlu dicatat:
-
-- Sebagian besar penelitian berfokus pada metode perbaikan tanah tunggal (PVD atau preloading) tanpa mengeksplorasi kombinasi metode yang lebih kompleks.
-- Belum ada penelitian yang mengkaji kombinasi Cement Deep Mixing (CDM) sebagai inklusi kaku dengan material timbunan ringan Cement Pipe Mixing (CPM).
-- Analisis umumnya dilakukan pada kondisi tanah lunak dengan ketebalan sedang, belum mencakup kondisi tanah lunak ekstrem dengan ketebalan sangat besar seperti yang dijumpai pada beberapa proyek reklamasi.
-- Sebagian besar penelitian menggunakan pendekatan analitis sederhana atau analisis numerik dengan asumsi-asumsi tertentu, belum ada yang mengintegrasikan data geoteknik lapangan lengkap (SPT, CPT, dan laboratorium) dalam satu model komprehensif.
 
 2.2.3 Research Gap (Kesenjangan Penelitian)
 
